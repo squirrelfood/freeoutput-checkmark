@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} FreeOutput. All rights reserved.
+            ♡ {new Date().getFullYear()} Copying is an act of love. Please copy and share.
             </p>
           </div>
         </div>
