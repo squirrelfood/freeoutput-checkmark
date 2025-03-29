@@ -1,7 +1,7 @@
 
 import { Provider } from "../types/providers";
 
-// This is mock data - in a real app, this would come from a database or API
+// JSON is good enough for this project. A database is not needed.
 export const providers: Provider[] = [
   {
     id: "openai",
