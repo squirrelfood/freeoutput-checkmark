@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div>
             <p className="text-gray-500 text-sm">
-            ♡ {new Date().getFullYear()} Copying is an act of love. Please copy and share.
+            ♡ {new Date().getFullYear()} Copying is an act of love. <a className="underline" href="https://github.com/squirrelfood/freeoutput-checkmark" target="_blank">Please copy and share.</a>
             </p>
           </div>
         </div>
