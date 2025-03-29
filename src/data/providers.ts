@@ -13,13 +13,8 @@ export const providers: Provider[] = [
     freeOutput: true,
     tosHighlights: [
       {
-        text: "As between the parties and to the extent permitted by applicable law, you own your Content and Output. Subject to your compliance with these Terms, OpenAI hereby assigns to you all its right, title and interest in and to Output.",
-        section: "3. Content",
-        supports: true
-      },
-      {
-        text: "This means that you can use Content to create Output for yourself or others, and you can use Output for any purpose, including commercial purposes such as creating revenue...",
-        section: "3. Content",
+        text: "As between you and OpenAI, and to the extent permitted by applicable law, you (a) retain your ownership rights in Input and (b) own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.",
+        section: "Content",
         supports: true
       }
     ]
@@ -31,27 +26,16 @@ export const providers: Provider[] = [
     description: "Anthropic is an AI safety company that develops Claude, a conversational AI assistant.",
     website: "https://www.anthropic.com",
     tosUrl: "https://www.anthropic.com/terms-of-use",
-    freeOutput: true,
+    freeOutput: false,
     tosHighlights: [
       {
-        text: "You own the content you create through your use of our services. You also own the content you provide to us and the output you generate using our services.",
-        section: "Your Content",
-        supports: true
-      }
-    ]
-  },
-  {
-    id: "meta-llama",
-    name: "Meta (Llama)",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg/288px-Meta_Platforms_Inc._logo_%28cropped%29.svg.png?20230731184236",
-    description: "Meta's Llama models are open source large language models available for commercial and research use.",
-    website: "https://ai.meta.com",
-    tosUrl: "https://ai.meta.com/llama/use-policy/",
-    freeOutput: true,
-    tosHighlights: [
+        text: "Subject to your compliance with our Terms [...]",
+        section: "4. Inputs, Outputs, and Materials",
+        supports: false
+      },
       {
-        text: "You own the content that you create with the Llama 2 model, including the right to distribute, sell, or give away the content you create.",
-        section: "Usage Policy",
+        text: "[...] we assign to you all of our right, title, and interest—if any—in Outputs.",
+        section: "4. Inputs, Outputs, and Materials",
         supports: true
       }
     ]
@@ -62,18 +46,13 @@ export const providers: Provider[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Google-gemini-icon.svg/512px-Google-gemini-icon.svg.png?20240826133250",
     description: "Google's Gemini (formerly Bard) is a conversational AI service powered by Google's LLM models.",
     website: "https://gemini.google.com",
-    tosUrl: "https://policies.google.com/terms/generative-ai/use",
-    freeOutput: false,
+    tosUrl: "https://policies.google.com/terms",
+    freeOutput: true,
     tosHighlights: [
       {
-        text: "Google does not claim ownership of Your Content. This includes content that you create using Google technology (like translations, Bard responses, or images made with the Imagen API).",
-        section: "Your Content",
+        text: "Some of our services allow you to generate original content. Google won’t claim ownership over that content.",
+        section: "Your content",
         supports: true
-      },
-      {
-        text: "But when you share, submit, or upload Your Content, you grant Google and those we work with a license to use Your Content...",
-        section: "Your Content",
-        supports: false
       }
     ]
   },
@@ -84,12 +63,12 @@ export const providers: Provider[] = [
     description: "Stability AI is the company behind Stable Diffusion, a popular text-to-image model.",
     website: "https://stability.ai",
     tosUrl: "https://stability.ai/terms-of-use",
-    freeOutput: true,
+    freeOutput: false,
     tosHighlights: [
       {
-        text: "Your Rights. You own your data, prompts, and the underlying content you already own plus any AI-generated outputs you create with the Services.",
-        section: "8. Intellectual Property Rights",
-        supports: true
+        text: "Unless otherwise expressly indicated by Stability, all content displayed or made available on the Site, including without limitation, text, images, illustrations, designs, logos, domain names, service marks, software, scripts, and the selection, compilation and arrangement of any of the foregoing is owned by Stability, its affiliates, licensors and/or other third parties (“Site Content”). The Site and all Site Content are protected by copyright, trade dress, trademark, moral rights, and other intellectual property laws in the United States, the United Kingdom, and other international jurisdictions. All such rights are reserved.",
+        section: "Your Rights to Use the Site; Our Content and Intellectual Property Rights",
+        supports: false
       }
     ]
   },
@@ -103,14 +82,30 @@ export const providers: Provider[] = [
     freeOutput: false,
     tosHighlights: [
       {
-        text: "Subject to the above license grant to the Company, you own all Assets you create with the Services.",
-        section: "4. Intellectual Property",
-        supports: false
+        text: "You own all Assets You create with the Services to the fullest extent possible under applicable law.",
+        section: "4. Content Rights",
+        supports: true
       },
       {
-        text: "You hereby grant Company a perpetual, worldwide, non-exclusive, sublicensable no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense...",
-        section: "4. Intellectual Property",
+        text: "There are some exceptions: [...]",
+        section: "4. Content Rights",
         supports: false
+      }
+    ]
+  },
+  {
+    id: "deepseek",
+    name: "DeepSeek",
+    logo: "https://avatars.githubusercontent.com/u/148330874?s=200&v=4",
+    description: "DeepSeek is a conversational AI service that provides Open Source models.",
+    website: "https://www.deepseek.com/",
+    tosUrl: "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+    freeOutput: true,
+    tosHighlights: [
+      {
+        text: "We assign any rights, title, and interests—if any—in the Outputs of the Services to you.",
+        section: "4. Inputs and Outputs",
+        supports: true
       }
     ]
   }

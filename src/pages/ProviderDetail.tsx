@@ -34,11 +34,11 @@ const ProviderDetail = () => {
       <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
         <div className="p-6">
           <div className="flex flex-col md:flex-row md:items-center gap-6 mb-6">
-            <div className="flex-shrink-0 h-24 w-24 flex items-center justify-center">
+            <div className="flex-shrink-0 size-24 flex items-center justify-center">
               <img 
                 src={provider.logo} 
                 alt={`${provider.name} logo`} 
-                className="h-full object-contain"
+                className="h-full object-contain size-24 rounded-xl"
               />
             </div>
             <div className="flex-grow">
