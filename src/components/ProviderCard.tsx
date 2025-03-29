@@ -23,7 +23,7 @@ const ProviderCard = ({ provider }: ProviderCardProps) => {
             <img
               src={provider.logo}
               alt={`${provider.name} logo`}
-              className="h-full object-contain"
+              className="h-full object-contain rounded-xl size-16"
             />
           </div>
           <h3 className="text-lg font-medium text-center mb-2">{provider.name}</h3>

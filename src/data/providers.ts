@@ -27,7 +27,7 @@ export const providers: Provider[] = [
   {
     id: "anthropic",
     name: "Anthropic",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Anthropic_logo.svg/1200px-Anthropic_logo.svg.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/1/14/Anthropic.png",
     description: "Anthropic is an AI safety company that develops Claude, a conversational AI assistant.",
     website: "https://www.anthropic.com",
     tosUrl: "https://www.anthropic.com/terms-of-use",
@@ -43,7 +43,7 @@ export const providers: Provider[] = [
   {
     id: "meta-llama",
     name: "Meta (Llama)",
-    logo: "https://about.fb.com/wp-content/uploads/2021/10/Meta-Logo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg/288px-Meta_Platforms_Inc._logo_%28cropped%29.svg.png?20230731184236",
     description: "Meta's Llama models are open source large language models available for commercial and research use.",
     website: "https://ai.meta.com",
     tosUrl: "https://ai.meta.com/llama/use-policy/",
@@ -57,10 +57,10 @@ export const providers: Provider[] = [
     ]
   },
   {
-    id: "google-bard",
+    id: "google-gemini",
     name: "Google (Gemini)",
-    logo: "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-advanced.max-1000x1000.png",
-    description: "Google's Gemini is a conversational AI service powered by Google's LLM models.",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Google-gemini-icon.svg/512px-Google-gemini-icon.svg.png?20240826133250",
+    description: "Google's Gemini (formerly Bard) is a conversational AI service powered by Google's LLM models.",
     website: "https://gemini.google.com",
     tosUrl: "https://policies.google.com/terms/generative-ai/use",
     freeOutput: false,
@@ -80,7 +80,7 @@ export const providers: Provider[] = [
   {
     id: "stability-ai",
     name: "Stability AI",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Stability_AI_logo.svg/2560px-Stability_AI_logo.svg.png",
+    logo: "https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/cfbf5bc5-47d4-4f4a-b133-23bd12a7d7c2/favicon.ico?format=100w",
     description: "Stability AI is the company behind Stable Diffusion, a popular text-to-image model.",
     website: "https://stability.ai",
     tosUrl: "https://stability.ai/terms-of-use",
