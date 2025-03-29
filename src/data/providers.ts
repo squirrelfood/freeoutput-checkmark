@@ -61,7 +61,7 @@ export const providers: Provider[] = [
     freeOutput: false,
     tosHighlights: [
       {
-        text: "Your ownership is subject to any obligations imposed by this Agreement and the rights of any third-parties.",
+        text: "Your ownership is subject to any obligations imposed by this Agreement [...]",
         section: "4. Content Rights",
         supports: false
       }
@@ -92,11 +92,6 @@ export const providers: Provider[] = [
     tosUrl: "https://suno.com/terms/",
     freeOutput: false,
     tosHighlights: [
-      {
-        text: "Commercial Use: Subject to the Content Section below, unless otherwise expressly authorized herein or in the Service, you agree not to display, distribute, license, perform, publish, reproduce, duplicate, copy, create derivative works from, modify, sell, resell, grant access to, transfer, or otherwise use or exploit any portion of the Service, and any Output, for any commercial purposes.",
-        section: "Conditions of Access and Use",
-        supports: false
-      },
       {
         text: "Subject to your compliance with these Terms of Service [...]",
         section: "Intellectual Property Rights",
