@@ -77,7 +77,7 @@ export const providers: Provider[] = [
     freeOutput: false,
     tosHighlights: [
       {
-        text: "There are some exceptions: [...] Your ownership is subject to any obligations imposed by this Agreement and the rights of any third-parties.",
+        text: "Your ownership is subject to any obligations imposed by this Agreement and the rights of any third-parties.",
         section: "4. Content Rights",
         supports: false
       }
