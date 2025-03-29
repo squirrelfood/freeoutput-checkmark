@@ -52,22 +52,6 @@ export const providers: Provider[] = [
     ]
   },
   {
-    id: "stability-ai",
-    name: "Stability AI",
-    logo: "https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/cfbf5bc5-47d4-4f4a-b133-23bd12a7d7c2/favicon.ico?format=100w",
-    description: "Stability AI is the company behind Stable Diffusion, a popular text-to-image model.",
-    website: "https://stability.ai",
-    tosUrl: "https://stability.ai/terms-of-use",
-    freeOutput: false,
-    tosHighlights: [
-      {
-        text: "Unless otherwise expressly indicated by Stability, all content displayed or made available on the Site, including without limitation, text, images, illustrations, designs, logos, domain names, service marks, software, scripts, and the selection, compilation and arrangement of any of the foregoing is owned by Stability, its affiliates, licensors and/or other third parties (“Site Content”). The Site and all Site Content are protected by copyright, trade dress, trademark, moral rights, and other intellectual property laws in the United States, the United Kingdom, and other international jurisdictions. All such rights are reserved.",
-        section: "Your Rights to Use the Site; Our Content and Intellectual Property Rights",
-        supports: false
-      }
-    ]
-  },
-  {
     id: "midjourney",
     name: "Midjourney",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Midjourney_Emblem.png/480px-Midjourney_Emblem.png",
