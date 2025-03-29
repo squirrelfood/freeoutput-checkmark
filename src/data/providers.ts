@@ -32,11 +32,6 @@ export const providers: Provider[] = [
         text: "Subject to your compliance with our Terms [...]",
         section: "4. Inputs, Outputs, and Materials",
         supports: false
-      },
-      {
-        text: "[...] we assign to you all of our right, title, and interest—if any—in Outputs.",
-        section: "4. Inputs, Outputs, and Materials",
-        supports: true
       }
     ]
   },
@@ -81,11 +76,6 @@ export const providers: Provider[] = [
     tosUrl: "https://docs.midjourney.com/docs/terms-of-service",
     freeOutput: false,
     tosHighlights: [
-      {
-        text: "You own all Assets You create with the Services to the fullest extent possible under applicable law.",
-        section: "4. Content Rights",
-        supports: true
-      },
       {
         text: "There are some exceptions: [...] Your ownership is subject to any obligations imposed by this Agreement and the rights of any third-parties.",
         section: "4. Content Rights",
