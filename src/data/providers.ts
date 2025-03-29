@@ -98,5 +98,21 @@ export const providers: Provider[] = [
         supports: false
       }
     ]
-  }
+  },
+  {
+    id: "mistral",
+    name: "Mistral AI",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/512px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png",
+    description: "Mistral is a French AI startup, specializing in open-weight LLMs",
+    website: "https://mistral.ai/",
+    tosUrl: "https://mistral.ai/terms",
+    freeOutput: true,
+    tosHighlights: [
+      {
+        text: "To the extent permitted by applicable law, you (i) retain all ownership rights in Input and (ii) own all Output. We assign to you all right, title, and interest, if any, in and to Output that we may have.",
+        section: "3. Your User Data",
+        supports: true
+      }
+    ]
+  },
 ];
