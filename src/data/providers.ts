@@ -25,7 +25,7 @@ export const providers: Provider[] = [
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/14/Anthropic.png",
     description: "Anthropic is an AI safety company that develops Claude, a conversational AI assistant.",
     website: "https://www.anthropic.com",
-    tosUrl: "https://www.anthropic.com/terms-of-use",
+    tosUrl: "https://www.anthropic.com/legal/consumer-terms",
     freeOutput: false,
     tosHighlights: [
       {
