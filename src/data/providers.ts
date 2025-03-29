@@ -108,5 +108,26 @@ export const providers: Provider[] = [
         supports: true
       }
     ]
+  },
+  {
+    id: "suno",
+    name: "Suno AI",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Suno_logo_July_2024.svg/220px-Suno_logo_July_2024.svg.png",
+    description: "Suno is an AI music creation program designed to generate realistic songs.",
+    website: "https://suno.com/",
+    tosUrl: "https://suno.com/terms/",
+    freeOutput: false,
+    tosHighlights: [
+      {
+        text: "Commercial Use: Subject to the Content Section below, unless otherwise expressly authorized herein or in the Service, you agree not to display, distribute, license, perform, publish, reproduce, duplicate, copy, create derivative works from, modify, sell, resell, grant access to, transfer, or otherwise use or exploit any portion of the Service, and any Output, for any commercial purposes.",
+        section: "Conditions of Access and Use",
+        supports: false
+      },
+      {
+        text: "Subject to your compliance with these Terms of Service [...]",
+        section: "Intellectual Property Rights",
+        supports: false
+      }
+    ]
   }
 ];
