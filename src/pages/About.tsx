@@ -25,10 +25,11 @@ const About = () => {
             For each AI provider, we carefully review their Terms of Service or Terms of Use to determine whether they:
           </p>
           <ul className="list-disc pl-6 mb-4 text-gray-700 space-y-2">
-            <li>Assign full copyright ownership of AI-generated content to the user</li>
-            <li>Retain some rights to use or license the content</li>
-            <li>Place restrictions on commercial usage</li>
-            <li>Have ambiguous terms that could impact your ownership rights</li>
+            <li>Assign full copyright ownership of AI-generated content to the user.</li>
+            <li>Assign ownership unconditionally (ie not subject to compliance with Terms of Service).</li>
+            <li>Retain some rights to use or license the content.</li>
+            <li>Place restrictions on commercial usage.</li>
+            <li>Have ambiguous terms that could impact your ownership rights.</li>
           </ul>
           <p className="text-gray-700">
             We highlight the specific sections of these documents so you can verify our classifications and understand the nuances of each provider's terms.
